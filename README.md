@@ -26,7 +26,7 @@ For task details, evaluation criteria, and submission guidelines, refer to [Task
 ## Awards & Publication
 Top solutions will be recognized at EUSIPCO 2024, with potential publication in the IEEE Open Journal of Signal Processing and eligibility for registration and travel reimbursements.
 
-## Join us 
+## Join us 
 Keep up to date by joining the [Google Group](https://groups.google.com/g/sonicom-lap-challenge).
 
 ## Organizers
@@ -50,7 +50,7 @@ The Listener Acoustic Personalisation Challenge is sponsored by the IEEE Signal 
 
 ---
 
-### Funding
+### Funding
 ![sonicom_logo](https://www.sonicom.eu/wp-content/themes/sonicom/library/images/logo.png)
 
 The SONICOM project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no.101017743. The sole responsibility for the content of this project lies with the authors. It does not necessarily reflect the opinion of the European Union. The European Commission is not responsible for any use that may be made of the information contained therein.
