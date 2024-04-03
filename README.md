@@ -42,3 +42,13 @@ Stavros Ntalampiras, University of Milan, IT
 Johan Pauwels, Queen Mary University of London, UK
 Katarina Poole, Imperial College London, UK
 Rapolas Daugintis, Imperial College London, UK
+
+### Sponsors
+![IEEE_SPS_logo](https://www.sonicom.eu/wp-content/uploads/2023/10/IEEE-SPS-logo.png)
+The Listener Acoustic Personalisation Challenge is sponsored by the IEEE Signal Processing Society.
+
+---
+
+![sonicom_logo](https://www.sonicom.eu/wp-content/themes/sonicom/library/images/logo.png)
+
+The SONICOM project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no.101017743. The sole responsibility for the content of this project lies with the authors. It does not necessarily reflect the opinion of the European Union. The European Commission is not responsible for any use that may be made of the information contained therein.
