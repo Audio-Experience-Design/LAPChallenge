@@ -1,5 +1,9 @@
-%% compute perceptual metrics deviation from harmonized HRTF
-% This script requires the AMToolbox v1.5.0 - www.amtoolbox.org
+%% 
+% This script requires AMToolbox v1.5.0 - www.amtoolbox.org - 
+% and uses an auditory model to compute perceptual metrics deviation 
+% from harmonized HRTF
+%
+% Model reference: https://doi.org/10.1051/aacus/2023006
 % 
 % 2023-03-28, Roberto Barumerli
 
@@ -13,8 +17,8 @@ amt_start
 % of grids in the Club Fritz colletion
 target_coords = readtable("target_coords.csv");
 
-hrtf_original = 'C:\Users\rbarumerli\repos\datasets\hrtfs\mit_kemar_normal_pinna.sofa';
-hrtf_harmonized = 'C:\Users\rbarumerli\repos\datasets\hrtfs\mit_kemar_normal_pinna.sofa';
+hrtf_original = 'original_hrtf.sofa';
+hrtf_harmonized = 'harmonised_hrtf.sofa';
 
 sofa_original = SOFAload(hrtf_original);
 sofa_harmonized = SOFAload(hrtf_harmonized);
