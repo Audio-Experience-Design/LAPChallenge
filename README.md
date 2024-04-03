@@ -30,17 +30,17 @@ Top solutions will be recognized at EUSIPCO 2024, with potential publication in 
 Keep up to date by joining the [Google Group](https://groups.google.com/g/sonicom-lap-challenge).
 
 ## Organizers
-Chair: Michele Geronazzo, University of Padova, IT, and Imperial College London, UK
+Chair: Michele Geronazzo, University of Padova, IT, and Imperial College London, UK\
 Co-chair: Lorenzo Picinali, Imperial College London, UK
 
-Chair of the Implementation: Roberto Barumerli, University of Verona, IT,
+Chair of the Implementation: Roberto Barumerli, University of Verona, IT\
 Chair of the Web Site and Dissemination: Aidan Hogg, Queen Mary University of London, UK
 
-Fabian Brinkmann, Technische Universität Berlin, DE
-Glen McLachlan, University of Antwerp, BE
-Stavros Ntalampiras, University of Milan, IT
-Johan Pauwels, Queen Mary University of London, UK
-Katarina Poole, Imperial College London, UK
+Fabian Brinkmann, Technische Universität Berlin, DE\
+Glen McLachlan, University of Antwerp, BE\
+Stavros Ntalampiras, University of Milan, IT\
+Johan Pauwels, Queen Mary University of London, UK\
+Katarina Poole, Imperial College London, UK\
 Rapolas Daugintis, Imperial College London, UK
 
 ### Sponsors
