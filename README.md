@@ -1,4 +1,4 @@
-# LAP Challenge: Personalized Spatial Audio Benchmarking
+# LAP Challenge
 
 ## About
 The [LAP Challenge](https://www.sonicom.eu/lap-challenge/) aims at advancing personalized spatial audio technologies. It focuses on enhancing auditory localization and immersion in mixed realities through the personalization of Head-Related Transfer Functions (HRTFs). 
@@ -7,6 +7,13 @@ The [LAP Challenge](https://www.sonicom.eu/lap-challenge/) aims at advancing per
 Participants are encouraged to address one of the following:
 - **Task 1:** Normalization of HRTFs for merging different datasets.
 - **Task 2:** Spatial upsampling to achieve high-resolution HRTFs from minimal directional samples.
+
+## Repository structure
+- folder **task1**
+  - ``task1_validate.m`` demonstrate how to test deviations in terms of localization metrics predicted by an auditory model.
+  - ``task1_score.md`` contains the instructions to compute the overall score given the set of collections.
+- folder **task2**
+  - ``task2_metrics.ipynb`` showcases how to use the [SAM](https://spatial-audio-metrics.readthedocs.io/en/latest/) package to validate and compute the scores for Task 2.
 
 ## Key Dates
 - Task Details Released: March 27, 2024
