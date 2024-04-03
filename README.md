@@ -5,8 +5,8 @@ The [LAP Challenge](https://www.sonicom.eu/lap-challenge/) aims at advancing per
 
 ## Challenge Tasks
 Participants are encouraged to address one of the following:
-- **Task 1:** Normalization of HRTFs for merging different datasets.
-- **Task 2:** Spatial upsampling to achieve high-resolution HRTFs from minimal directional samples.
+- **Task 1:** Normalization of HRTFs for merging several [datasets](https://imperialcollegelondon.box.com/s/utm14xqeti6zp02bk7399j48jp3ggthl).
+- **Task 2:** Spatial upsampling to achieve high-resolution HRTFs from minimal directional samples [dataset](https://imperialcollegelondon.box.com/s/qshix6e74q3s86brkxx2sz809o9td3q4).
 
 ## Repository structure
 - folder **task1**
