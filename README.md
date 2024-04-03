@@ -10,7 +10,7 @@ Participants are encouraged to address one of the following:
 
 ## Repository structure
 - folder **task1**
-  - ``task1_validate.m`` demonstrate how to test deviations in terms of localization metrics predicted by an auditory model.
+  - ``task1_validate.m`` demonstrates how to test deviations in terms of localization metrics predicted by an auditory model.
   - ``task1_score.md`` contains the instructions to compute the overall score given the set of collections.
 - folder **task2**
   - ``task2_metrics.ipynb`` showcases how to use the [SAM](https://spatial-audio-metrics.readthedocs.io/en/latest/) package to validate and compute the scores for Task 2.
@@ -45,10 +45,12 @@ Rapolas Daugintis, Imperial College London, UK
 
 ### Sponsors
 ![IEEE_SPS_logo](https://www.sonicom.eu/wp-content/uploads/2023/10/IEEE-SPS-logo.png)
+
 The Listener Acoustic Personalisation Challenge is sponsored by the IEEE Signal Processing Society.
 
 ---
 
+### Funding
 ![sonicom_logo](https://www.sonicom.eu/wp-content/themes/sonicom/library/images/logo.png)
 
 The SONICOM project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement no.101017743. The sole responsibility for the content of this project lies with the authors. It does not necessarily reflect the opinion of the European Union. The European Commission is not responsible for any use that may be made of the information contained therein.
