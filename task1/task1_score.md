@@ -1,7 +1,7 @@
 # LAP Challenge Task 1 Score Computation
 
 ## Instructions
-To compute the score for Task 1 of the LAP Challenge, follow these following steps. Details on how the score is computed are available [here](https://10.1109/ICASSP49357.2023.10096689).
+To compute the score for Task 1 of the LAP Challenge, follow these steps. 
 
 1. **Download HRTFs:**
    - Download the HRTFs dataset from the following [link](https://imperialcollegelondon.box.com/s/utm14xqeti6zp02bk7399j48jp3ggthl)
@@ -27,3 +27,5 @@ To compute the score for Task 1 of the LAP Challenge, follow these following ste
 ## Additional Notes
 - Ensure that you have Python and pip installed on your system before running the installation command.
 - For any issues or inquiries, please refer to the LAP Challenge organizers.
+- Details on how the score is computed are available in the original [paper](https://10.1109/ICASSP49357.2023.10096689)
+- The code behind the Python package is [here](https://github.com/jpauwels/lap-task1). 
