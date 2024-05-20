@@ -64,14 +64,17 @@ metrics_harmonized.gainP = localizationerror(m, 'gainP');
 metrics_diff = structfun(@(x) x, metrics_harmonized) - ...
                         structfun(@(x) x, metrics_original);
 
+assert(sum(isnan(metrics_diff)) == 0, 'nan detected')
+
 % see task details to know more about these values
 % the array is ordered as follows: accL, rmsL, accP, rmsP, querr, gainP
 thresholds = [1.96, 2.20, 33.74, 4.11, 9.70, 0.14]';
 
 % print results
-if sum(metrics_diff < thresholds) == length(thresholds)
+checks = metrics_diff < thresholds;
+if sum(checks) == length(thresholds)
     fprintf('The harmonised HRTF is valid.\n')
 else
     fprintf('%i out of 6 metrics are invalid.\n', ...
-                                sum(metrics_diff > thresholds))
+                                sum(~checks))
 end
