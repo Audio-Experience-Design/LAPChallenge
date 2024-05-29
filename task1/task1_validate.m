@@ -5,7 +5,10 @@
 %
 % Model reference: https://doi.org/10.1051/aacus/2023006
 % 
-% 2023-03-28, Roberto Barumerli
+% 2024-03-28, Roberto Barumerli
+%
+% Changelog:
+% 2024-05-29: fixed bug in sampling rate and updated threshold values
 
 clearvars 
 close all
@@ -24,8 +27,8 @@ sofa_original = SOFAload(hrtf_original);
 sofa_harmonized = SOFAload(hrtf_harmonized);
 
 % extract features for template and target
-template = barumerli2023_featureextraction(sofa_original, 'dtf');
-target = barumerli2023_featureextraction(sofa_original, ...
+template = barumerli2023_featureextraction(sofa_original, 'dtf', 'fs', sofa_original.Data.SamplingRate);
+target = barumerli2023_featureextraction(sofa_original, 'fs', sofa_original.Data.SamplingRate, ...
                                             'dtf', 'target', ...
                                             'targ_az', target_coords.az, ...
                                             'targ_el', target_coords.el);
@@ -42,10 +45,11 @@ target = barumerli2023_featureextraction(sofa_original, ...
 metrics_original = barumerli2023_metrics(m, 'middle_metrics');
 % adding gain
 metrics_original.gainP = localizationerror(m, 'gainP');
+metrics_original.accP = localizationerror(m, 'accPnoquerr');
 
 %% compute metrics for harmonized HRTF
 target_harmonized = ...
-        barumerli2023_featureextraction(sofa_harmonized, ...
+        barumerli2023_featureextraction(sofa_harmonized, 'fs', sofa_harmonized.Data.SamplingRate, ...
                                             'dtf', 'target', ...
                                             'targ_az', target_coords.az, ...
                                             'targ_el', target_coords.el);
@@ -57,8 +61,10 @@ target_harmonized = ...
                         'sigma_spectral', 4.3, ...
                         'sigma_motor', [],...
                         'sigma_prior', 11.5);
+
 metrics_harmonized = barumerli2023_metrics(m, 'middle_metrics');
 metrics_harmonized.gainP = localizationerror(m, 'gainP');
+metrics_harmonized.accP = localizationerror(m, 'accPnoquerr');
 
 % compute difference 
 metrics_diff = structfun(@(x) x, metrics_harmonized) - ...
@@ -68,7 +74,7 @@ assert(sum(isnan(metrics_diff)) == 0, 'nan detected')
 
 % see task details to know more about these values
 % the array is ordered as follows: accL, rmsL, accP, rmsP, querr, gainP
-thresholds = [1.96, 2.20, 33.74, 4.11, 9.70, 0.14]';
+thresholds = [1.69, 2.35, 3.73, 3.12, 6.23, 0.15]';
 
 % print results
 checks = metrics_diff < thresholds;
