@@ -74,6 +74,7 @@ assert(sum(isnan(metrics_diff)) == 0, 'nan detected')
 
 % see task details to know more about these values
 % the array is ordered as follows: accL, rmsL, accP, rmsP, querr, gainP
+metrics_names = {'accL', 'rmsL', 'accP', 'rmsP', 'querr', 'gainP'};
 thresholds = [1.69, 2.35, 3.73, 3.12, 6.23, 0.15]';
 
 % print results
@@ -84,3 +85,11 @@ else
     fprintf('%i out of 6 metrics are invalid.\n', ...
                                 sum(~checks))
 end
+
+fprintf('Names:\t\t%s\n', sprintf('%s\t', metrics_names{:}))
+fprintf('Original:\t%s\n', sprintf('%.2f\t', structfun(@(x) x, metrics_original)))
+fprintf('Harmonized:\t%s\n', sprintf('%.2f\t', structfun(@(x) x, metrics_harmonized)))
+fprintf('Difference:\t%s\n', sprintf('%.2f\t', metrics_diff))
+fprintf('Pass?:\t\t%s\n', sprintf('%i\t', checks))
+
+
