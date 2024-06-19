@@ -14,6 +14,7 @@ Participants are encouraged to address one of the following:
   - ``task1_score.md`` contains the instructions to compute the overall score given the set of collections.
 - folder **task2**
   - ``task2_metrics.ipynb`` showcases how to use the [SAM](https://spatial-audio-metrics.readthedocs.io/en/latest/) package to validate and compute the scores for Task 2.
+  - ``task2_create_sparse_hrtf.py`` contains a function to create a sparse HRTF from a sofa file with a dense HRTF. It can be used to generate example sparse HRTFs for the challenge at different sparsity levels (number of positions). Requires [sofar](https://sofar.readthedocs.io/en/stable/readme.html) package.
 
 ## Key Dates
 - Task Details Released: March 27, 2024
