@@ -18,7 +18,7 @@ Participants are encouraged to address one of the following:
 
 ## Key Dates
 - Task Details Released: March 27, 2024
-- Submission Deadline: June 25, 2024
+- Submission Deadline: July 1, 2024
 - Awards Ceremony: August 29, 2024, at EUSIPCO 2024 in Lyon, France.
 
 ## Participation
