@@ -17,8 +17,8 @@ Participants are encouraged to address one of the following:
   - ``task2_create_sparse_hrtf.py`` contains a function to create a sparse HRTF from a sofa file with a dense HRTF. It can be used to generate example sparse HRTFs for the challenge at different sparsity levels (number of positions). Requires [sofar](https://sofar.readthedocs.io/en/stable/readme.html) package.
 
 ## Key Dates
-- Task Details Released: March 27, 2024
-- Submission Deadline: July 1, 2024
+- <del>Task Details Released: March 27, 2024</del>
+- <del>Submission Deadline: July 1, 2024</del>
 - Awards Ceremony: August 29, 2024, at EUSIPCO 2024 in Lyon, France.
 
 ## Participation
