@@ -1,5 +1,20 @@
 # LAP Challenge
 
+## Table of Contents
+- [LAP Challenge](#lap-challenge)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Challenge Tasks](#challenge-tasks)
+  - [Repository structure](#repository-structure)
+  - [Key Dates](#key-dates)
+  - [Participation](#participation)
+  - [Join us](#join-us)
+  - [Results, Winners, and Evaluation](#results-winners-and-evaluation)
+    - [Task 2: HRTF Dataset](#task-2-hrtf-dataset)
+  - [Organizers](#organizers)
+    - [Sponsors](#sponsors)
+    - [Funding](#funding)
+
 ## About
 The [LAP Challenge](https://www.sonicom.eu/lap-challenge/) aims at advancing personalized spatial audio technologies. It focuses on enhancing auditory localization and immersion in mixed realities through the personalization of Head-Related Transfer Functions (HRTFs). 
 
@@ -19,16 +34,38 @@ Participants are encouraged to address one of the following:
 ## Key Dates
 - <del>Task Details Released: March 27, 2024</del>
 - <del>Submission Deadline: July 1, 2024</del>
-- Awards Ceremony: August 29, 2024, at EUSIPCO 2024 in Lyon, France.
+- <del>Awards Ceremony: August 29, 2024, at EUSIPCO 2024 in Lyon, France<del>.
 
 ## Participation
 For task details, evaluation criteria, and submission guidelines, refer to [Task 1](https://imperialcollegelondon.box.com/s/laq35yleevu0e1c7g0mn1w9e98f2b0ia) and [Task 2](https://imperialcollegelondon.box.com/s/w7b7dmqbuywuu1oktbrhehlgdfghhfm1).
 
-## Awards & Publication
-Top solutions will be recognized at EUSIPCO 2024, with potential publication in the IEEE Open Journal of Signal Processing and eligibility for registration and travel reimbursements.
-
 ## Join us 
 Keep up to date by joining the [Google Group](https://groups.google.com/g/sonicom-lap-challenge).
+
+## Results, Winners, and Evaluation
+
+The results, winners, and evaluation of the submissions for the LAP Challenge have been officially released in a preprint. You can access the full report, including detailed analysis and rankings, at the following link:
+
+- [Technical Report: SONICOM - IEEE Listener Acoustic Personalisation LAP Challenge 2024](https://doi.org/10.36227/techrxiv.173153187.72930965/v1)
+
+### Task 2: HRTF Dataset
+
+The original HRTF datasets, from which the sparse HRTF dataset for Task 2 was derived, are available for download at the following [URL](https://transfer.ic.ac.uk:9090/#/2022_SONICOM-HRTF-DATASET/). 
+
+| Sparse HRTF           | Original HRTF                                      | Original HRTF URL                                                                 |
+|-----------------------|----------------------------------------------------|-----------------------------------------------------------------------------------|
+| LAPtask2_100_1.sofa    | P0201_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0201/HRTF/HRTF/48kHz/P0201_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_19_1.sofa     | P0202_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0202/HRTF/HRTF/48kHz/P0202_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_5_1.sofa      | P0203_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0203/HRTF/HRTF/48kHz/P0203_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_3_1.sofa      | P0204_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0204/HRTF/HRTF/48kHz/P0204_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_100_2.sofa    | P0205_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0205/HRTF/HRTF/48kHz/P0205_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_19_2.sofa     | P0206_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0206/HRTF/HRTF/48kHz/P0206_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_5_2.sofa      | P0207_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0207/HRTF/HRTF/48kHz/P0207_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_3_2.sofa      | P0208_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0208/HRTF/HRTF/48kHz/P0208_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_100_3.sofa    | P0210_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0210/HRTF/HRTF/48kHz/P0210_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_19_3.sofa     | P0211_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0211/HRTF/HRTF/48kHz/P0211_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_5_3.sofa      | P0212_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0212/HRTF/HRTF/48kHz/P0212_FreeFieldCompMinPhase_48kHz.sofa) |
+| LAPtask2_3_3.sofa      | P0213_FreeFieldCompMinPhase_48kHz.sofa             | [Link](https://transfer.ic.ac.uk:9090/2022_SONICOM-HRTF-DATASET/P0213/HRTF/HRTF/48kHz/P0213_FreeFieldCompMinPhase_48kHz.sofa) |
 
 ## Organizers
 Chair: Michele Geronazzo, University of Padova, IT, and Imperial College London, UK\
