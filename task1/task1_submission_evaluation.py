@@ -29,7 +29,7 @@ for i in range(accs.size):
     side = 'any-left'
     sample_rate = 44100
     hrir_length = 235
-    accs[i, ] = classification_accuracy(Path(path), common_positions, side, sample_rate, hrir_length)
+    accs[i, ], _ = classification_accuracy(Path(path), i, common_positions, side, sample_rate, hrir_length)
 
 # print results 
 print(accs)
