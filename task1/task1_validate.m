@@ -20,7 +20,7 @@ amt_start
 
 % load directions resulting from the intersection 
 % of grids in the Club Fritz colletion
-target_coords = readtable("target_coords.csv");
+target_coords = readtable("target_coords_clubfritz.csv");
 
 hrtf_original = 'original_hrtf.sofa';
 hrtf_harmonized = 'harmonised_hrtf.sofa';

@@ -7,7 +7,7 @@
 function metrics = compute_metrics(hrtf_original, hrtf_harmonized)
     % load directions resulting from the intersection 
     % of grids in the Club Fritz colletion
-    target_coords = readtable("target_coords.csv");
+    target_coords = readtable("../target_coords.csv");
     
     sofa_original = SOFAload(hrtf_original);
     sofa_harmonized = SOFAload(hrtf_harmonized);
@@ -32,6 +32,11 @@ function metrics = compute_metrics(hrtf_original, hrtf_harmonized)
                                                 'targ_az', target_coords.az, ...
                                                 'targ_el', target_coords.el);
     
+    angle_diff = target.coords.return_positions('spherical') - [table2array(target_coords), ones(size(target_coords, 1), 1)]; 
+    angle_diff = wrapTo180(angle_diff);
+    assert(sum(all(abs(angle_diff(:, 1:2)) < 5.5)) == 2, ...
+        'something wrong with the direction selection since the nearest should be at maximum far of 5 degs' )
+
     [m] = barumerli2023('template', template, ...
                             'target', target, ...
                             'sigma_itd', .569, ...
@@ -40,7 +45,7 @@ function metrics = compute_metrics(hrtf_original, hrtf_harmonized)
                             'sigma_motor', [],...
                             'sigma_prior', 11.5, ...
                             'num_exp', 300);
-    
+
     metrics = barumerli2023_metrics(m, 'middle_metrics');
     metrics.gainP = localizationerror(m, 'gainP');
     metrics.accP = localizationerror(m, 'accPnoquerr');
