@@ -35,4 +35,4 @@ parfor i = 1:size(hrtf_list,1)
 end
 
 % save results
-save('metrics_original.mat', 'metrics_original', 'hrtf_list')
+save('results/metrics_original.mat', 'metrics_original', 'hrtf_list')
