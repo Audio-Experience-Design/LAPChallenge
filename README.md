@@ -6,10 +6,10 @@
   - [About](#about)
   - [Challenge Tasks](#challenge-tasks)
   - [Repository structure](#repository-structure)
+  - [Results, Publications, Winners, and Evaluation](#results-Publications-winners-and-evaluation)
   - [Key Dates](#key-dates)
   - [Participation](#participation)
   - [Join us](#join-us)
-  - [Results, Winners, and Evaluation](#results-winners-and-evaluation)
     - [Task 2: HRTF Dataset](#task-2-hrtf-dataset)
   - [Organizers](#organizers)
     - [Sponsors](#sponsors)
@@ -31,6 +31,17 @@ Participants are encouraged to address one of the following:
   - ``task2_metrics.ipynb`` showcases how to use the [SAM](https://spatial-audio-metrics.readthedocs.io/en/latest/) package to validate and compute the scores for Task 2.
   - ``task2_create_sparse_hrtf.py`` contains a function to create a sparse HRTF from a sofa file with a dense HRTF. It can be used to generate example sparse HRTFs for the challenge at different sparsity levels (number of positions). Requires [sofar](https://sofar.readthedocs.io/en/stable/readme.html) package.
 
+## Results, Publications, Winners, and Evaluation
+
+The results, winners, and evaluation of the submissions for the LAP Challenge have been officially released in the following two publications:
+
+- [Listener Acoustic Personalization Challenge - LAP24: Head-Related Transfer Function Dataset Harmonization](https://ieeexplore.ieee.org/document/11097362)
+- [Listener Acoustic Personalization Challenge - LAP24: Head-Related Transfer Function Upsampling](https://ieeexplore.ieee.org/document/11078906)
+
+A draft technical report covering the full results of the challenge is also available here: 
+
+- [Technical Report: SONICOM - IEEE Listener Acoustic Personalisation LAP Challenge 2024](https://doi.org/10.36227/techrxiv.173153187.72930965/v1)
+
 ## Key Dates
 - <del>Task Details Released: March 27, 2024</del>
 - <del>Submission Deadline: July 1, 2024</del>
@@ -41,12 +52,6 @@ For task details, evaluation criteria, and submission guidelines, refer to [Task
 
 ## Join us 
 Keep up to date by joining the [Google Group](https://groups.google.com/g/sonicom-lap-challenge).
-
-## Results, Winners, and Evaluation
-
-The results, winners, and evaluation of the submissions for the LAP Challenge have been officially released in a preprint. You can access the full report, including detailed analysis and rankings, at the following link:
-
-- [Technical Report: SONICOM - IEEE Listener Acoustic Personalisation LAP Challenge 2024](https://doi.org/10.36227/techrxiv.173153187.72930965/v1)
 
 ### Task 2: HRTF Dataset
 
